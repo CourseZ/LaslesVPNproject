@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-fluid {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  line-height: 1;
+  font-family: "Rubik", sans-serif;
+  color: #4F5665;
+  font-weight: 400;
+  font-size: 1.6em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 45px;
+  border-radius: 100rem;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.btn--primary {
+  font-weight: 700;
+  background-color: #f53838;
+  color: white;
+}
+.btn--outline {
+  background-color: transparent;
+  color: #f53838;
+  font-weight: 500;
+  border: 1px solid;
+}
+.btn--rounded {
+  border-radius: 10px;
+  padding: 17px 65px;
+  box-shadow: 0 30px 54px -5px rgba(245, 56, 56, 0.7);
+}
+
+.header {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-auth {
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+  text-transform: capitalize;
+}
+.header-signin {
+  font-weight: 500;
+  color: #0B132A;
+}
+.header-signup {
+  padding: 13px 45px;
+  border-radius: 100rem;
+  color: #f53838;
+  border: 1px solid;
+  font-weight: 500;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0 40px;
+}
+.menu-link {
+  color: inherit;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 40px;
+}
+.hero-content {
+  width: 100%;
+  max-width: 555px;
+  margin-left: 150px;
+}
+.hero-image {
+  width: 611.24px;
+  height: 382.44px;
+  margin-right: 83px;
+}
+.hero-heading {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 70px;
+  color: #0B132A;
+}
+.hero-desc {
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.hero-desc strong {
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=app.css.map */
